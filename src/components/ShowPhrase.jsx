@@ -3,8 +3,8 @@ import React from 'react'
 const ShowPhrase = ({frase}) => {
   return (
     <div className='rectangle'>
-      <p>{frase.phrase}</p>
-      <p>Fuente: {frase.author}</p>
+      <p className='text'>{frase.phrase}</p>
+      <p className='text'>Fuente: {frase.author}</p>
     </div>
   )
 }
