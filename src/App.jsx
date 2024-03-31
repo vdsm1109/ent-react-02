@@ -13,7 +13,7 @@ function App() {
   const [content, setContent] = useState(HRandom(arrayPhrase))
   const [bgImg, setBgImg] = useState(HRandom(arrayImg))
 
-  const styleChange ={backgroundImage: `url(../public/fondo${bgImg}.jpg)`}
+  const styleChange ={backgroundImage: `url(../fondo${bgImg}.jpg)`}
 
   return (
     <>
